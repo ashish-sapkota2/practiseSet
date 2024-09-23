@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en"   ng-app="myApp"  >
     <head>
         <script src="./lib/angular.min.js"></script>
+        <script src="app/components/header/header.js"></script>
         <!-- <script src="./app/components/header/header.directive.js"></script> -->
         <script src="./app/app.js"></script>
     </head>
 <body>
+    <!-- <header ng-controller="navController" ng-include="'app\components\header\header.html'"></header> -->
+    <main>
 
-
-</div>
-<div  ng-app="myApp"  ng-controller="myController" ng-init="myCol='lightblue';quantity=2;cost=5; person={firstName:'Ashish',lastName:'Sapkota'}">
-        <header-Directive></header-Directive>
+   
+<div ng-controller="myController" ng-init="myCol='lightblue';quantity=2;cost=5; person={firstName:'Ashish',lastName:'Sapkota'}">
         <input type="text" ng-model="name" style="background-color:{{myCol}}">
         <h1 ng-bind="message"></h1>
         <p><strong ng-bind="person.firstName"></strong> {{person.lastName}}</p>
@@ -19,6 +20,18 @@
         <h1>{{submessage}}</h1>
         
         <p>Total cost: {{ quantity * cost }}</p>
+        <div>
+            <input type="text" ng-model="search">
+            <ul>
+               <li  ng-repeat="car in cars | orderBy:'-name' | filter:search">
+    
+                  {{car.name}}-{{car.floor| currency:"Rs"}} 
+               </li>
+            </ul>
+    
+        </div>
     </div>
+</main>
+
 </body>
 </html>
