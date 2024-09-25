@@ -1,5 +1,8 @@
-angular.module('myApp').service('todoService',function(){
-    $scope.todoItems=[{
+window.app.factory('todoService',function(){
+
+        
+var service={};
+    service.todoItems=[{
         Title:'wakeUp',
         content:'Wake up at 6:00 A.M',
         done:false,
@@ -12,10 +15,12 @@ angular.module('myApp').service('todoService',function(){
 
     }];
 
-    this.getTodos=function(){
-        return todoItems;
-    };
-    this.addTodo=function(newTodo){
-        todoItems.push(newTodo);
+        service.getTodos=function(){
+        return service.todoItems;
+    },
+    service.addTodo=function(newTodo){
+        service.todoItems.push(newTodo);
     }
+    return service;
+
 })
