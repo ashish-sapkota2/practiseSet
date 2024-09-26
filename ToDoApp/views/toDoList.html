@@ -107,7 +107,7 @@
             <label for="done-{{$index}}">Mark as done</label>
         </div>
         <div class="todo-buttons">
-            <button ng-if="!todo.isEditing" ng-click="editItem($index)">Edit</button>
+            <button ng-if="!todo.isEditing" ng-model="todo.id" ng-click="editItem(todo.id)">Edit</button>
             <button ng-if="todo.isEditing" ng-click="saveItem($index)" class="save">Save</button>
             <button ng-click="deleteItem($index)" class="delete">Delete</button>
         </div>

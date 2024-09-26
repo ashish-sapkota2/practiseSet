@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\data\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\data\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\data\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\data\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\interface\\itodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\interface\\itodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\migrations\\20240926045850_editing and mark as done.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\migrations\\20240926045850_editing and mark as done.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\dto\\tododto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|c:\\users\\percoidit\\source\\angularjs\\todoapp\\todoapi\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9EDAA375-F22A-4AA9-A84B-37E8316353C5}|ToDoApi\\ToDoApi.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -50,24 +54,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "20240926045850_editing and mark as done.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Migrations\\20240926045850_editing and mark as done.cs",
+              "RelativeDocumentMoniker": "ToDoApi\\Migrations\\20240926045850_editing and mark as done.cs",
+              "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Migrations\\20240926045850_editing and mark as done.cs",
+              "RelativeToolTip": "ToDoApi\\Migrations\\20240926045850_editing and mark as done.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T04:58:52.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ToDoRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Data\\ToDoRepository.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Data\\ToDoRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Data\\ToDoRepository.cs",
               "RelativeToolTip": "ToDoApi\\Data\\ToDoRepository.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAQwDgAAAA+AAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAA1wEcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:02:01.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Mappings\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Mappings\\AutoMapperProfile.cs",
@@ -75,18 +92,17 @@
               "RelativeToolTip": "ToDoApi\\Mappings\\AutoMapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T06:20:31.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T06:20:31.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Program.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Program.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Program.cs",
               "RelativeToolTip": "ToDoApi\\Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADwvyAAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvyAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:54:11.243Z",
               "EditorCaption": ""
@@ -99,7 +115,7 @@
               "RelativeDocumentMoniker": "ToDoApi\\Controllers\\ToDoController.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Controllers\\ToDoController.cs",
               "RelativeToolTip": "ToDoApi\\Controllers\\ToDoController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBcAAAAlAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAowCcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:07:46.793Z",
               "EditorCaption": ""
@@ -112,14 +128,14 @@
               "RelativeDocumentMoniker": "ToDoApi\\Interface\\ITodo.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Interface\\ITodo.cs",
               "RelativeToolTip": "ToDoApi\\Interface\\ITodo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T06:01:37.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TodoDto.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\DTO\\TodoDto.cs",
               "RelativeDocumentMoniker": "ToDoApi\\DTO\\TodoDto.cs",
@@ -127,12 +143,11 @@
               "RelativeToolTip": "ToDoApi\\DTO\\TodoDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:59:46.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T05:59:46.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DapperContext.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Data\\DapperContext.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Data\\DapperContext.cs",
@@ -140,25 +155,24 @@
               "RelativeToolTip": "ToDoApi\\Data\\DapperContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T06:35:51.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T06:35:51.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ToDo.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Models\\ToDo.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Models\\ToDo.cs",
               "ToolTip": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Models\\ToDo.cs",
               "RelativeToolTip": "ToDoApi\\Models\\ToDo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:34:10.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "ToDoApi\\Data\\DataContext.cs",
@@ -166,12 +180,11 @@
               "RelativeToolTip": "ToDoApi\\Data\\DataContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:31:27.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T05:31:27.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PERCOIDIT\\source\\angularJs\\ToDoApp\\ToDoApi\\ToDoApi\\appsettings.json",
               "RelativeDocumentMoniker": "ToDoApi\\appsettings.json",
@@ -179,8 +192,7 @@
               "RelativeToolTip": "ToDoApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-25T05:27:10.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T05:27:10.737Z"
             }
           ]
         }

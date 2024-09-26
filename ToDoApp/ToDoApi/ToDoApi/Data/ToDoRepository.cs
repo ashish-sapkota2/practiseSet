@@ -19,12 +19,14 @@ namespace ToDoApi.Data
         }
         public async Task<TodoDto> CreateTodo(TodoDto todo)
         {
-            string sql = "insert into todo (Title,Content) values(@title,@content)";
+            string sql = "insert into todo (Title,Content,IsEditing,Done) values(@title,@content,@IsEditing,@Done)";
             using (var connection =dapper.CreateConnection())
             {
                 var parameter= new {
                     Title=todo.Title,
                     Content=todo.Content,
+                    IsEditing= false,
+                    Done=false,
                     };
                 var result = await connection.ExecuteAsync(sql,parameter);
                 return new TodoDto{
@@ -59,6 +61,16 @@ namespace ToDoApi.Data
                 var result = await connection.QueryAsync<ToDo>(sql);
                 return result.ToList();
             }
+        }
+
+        public async Task<IEnumerable<ToDo>> GetTodoById(int id)
+        {
+            string sql = "select * from todo where Id=@id";
+            using(var connection = dapper.CreateConnection())
+            {
+                var result = await connection.QueryAsync<ToDo>(sql, new { Id = id });
+                return result.ToList();
+            } 
         }
 
         public async Task<TodoDto> UpdateTodo(ToDo todoUpdate)

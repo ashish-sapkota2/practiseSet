@@ -15,13 +15,13 @@ namespace ToDoApi.Controllers
         private readonly DataContext context;
         private readonly ITodo todo;
 
-        public ToDoController(DataContext context,ITodo todo)
+        public ToDoController(DataContext context, ITodo todo)
         {
             this.context = context;
             this.todo = todo;
         }
         [HttpGet]
-        public  Task<IEnumerable<ToDo>> GetAllToDo()
+        public Task<IEnumerable<ToDo>> GetAllToDo()
         {
             return todo.GetTodo();
         }
@@ -32,14 +32,21 @@ namespace ToDoApi.Controllers
         }
         [HttpPut]
 
-        public Task<TodoDto> Update(ToDo todoUpdate) 
+        public Task<TodoDto> Update(ToDo todoUpdate)
         {
             return todo.UpdateTodo(todoUpdate);
         }
         [HttpDelete]
-        public Task<string> Delete(int id) 
+        [Route("{id}")]
+        public Task<string> Delete(int id)
         {
-            return todo.DeleteTodo(id);   
+            return todo.DeleteTodo(id);
+        }
+        [HttpGet]
+        [Route("{id}")]
+        public Task<IEnumerable<ToDo>>GetById(int id)
+        {
+            return todo.GetTodoById(id);
         }
     }
 }

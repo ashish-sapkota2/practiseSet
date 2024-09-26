@@ -15,14 +15,26 @@ window.app.controller('toDoController',function($scope,todoService){
         //     item.Title= newTitle;
         //     item.content= newContent
         // }
-        $scope.todoItems[index].isEditing=true
+        console.log(index)
+        todoService.getTodoById(index)
+        .then(function(response){
+            var tododata = response.data[0];
+            $scope.todoItems=tododata
+            console.log(tododata)
+            
+            $scope.todoItems.isEditing=true
+        })
     };
     $scope.saveItem=function(index){
         $scope.todoItems[index].isEditing=false
     }
 
     $scope.deleteItem=function(index){
-        todoService.deleteToDo(index);
+        todoService.deleteToDo(index).then(function () {
+            $scope.todoItems = $scope.todoItems.filter(function (item) {
+                return item.index !== index;
+            });
+        });;
     }
 
 
