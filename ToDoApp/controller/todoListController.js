@@ -1,6 +1,11 @@
 window.app.controller('toDoController',function($scope,todoService){
 
-    $scope.todoItems=todoService.getTodos();
+    todoService.getTodos()
+    .then(function(response){
+        var todos=response.data;
+        console.log(todos)
+        $scope.todoItems=todos;
+    });
 
     $scope.editItem= function(index){
         // const item = $scope.todoItems[index];
@@ -17,7 +22,7 @@ window.app.controller('toDoController',function($scope,todoService){
     }
 
     $scope.deleteItem=function(index){
-        $scope.todoItems.splice(index,1);
+        todoService.deleteToDo(index);
     }
 
 

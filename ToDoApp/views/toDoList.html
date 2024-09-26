@@ -95,11 +95,11 @@
 <div class="todo-container">
     <div class="todo-card" ng-repeat="todo in todoItems" ng-class="{'done': todo.done}">
         <div ng--ig="!todo.isEditing">
-            <div class="todo-title">{{todo.Title}}</div>
+            <div class="todo-title">{{todo.title}}</div>
             <div class="todo-content">{{todo.content}}</div>
         </div>
         <div ng-if="todo.isEditing">
-            <input type="text" class="todo-edit-input" ng-model="todo.Title">
+            <input type="text" class="todo-edit-input" ng-model="todo.title">
             <input type="text" class="tofo-edit-input" ng-model="todo.content">
         </div>
         <div class="todo-checkbox">
