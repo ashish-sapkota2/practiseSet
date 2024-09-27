@@ -94,11 +94,12 @@
 <body ng-controller="toDoController">
 <div class="todo-container">
     <div class="todo-card" ng-repeat="todo in todoItems" ng-class="{'done': todo.done}">
-        <div ng--ig="!todo.isEditing">
+        <div ng-if="!todo.isEditing">
             <div class="todo-title">{{todo.title}}</div>
             <div class="todo-content">{{todo.content}}</div>
         </div>
         <div ng-if="todo.isEditing">
+            
             <input type="text" class="todo-edit-input" ng-model="todo.title">
             <input type="text" class="tofo-edit-input" ng-model="todo.content">
         </div>
@@ -109,7 +110,7 @@
         <div class="todo-buttons">
             <button ng-if="!todo.isEditing" ng-model="todo.id" ng-click="editItem(todo.id)">Edit</button>
             <button ng-if="todo.isEditing" ng-click="saveItem($index)" class="save">Save</button>
-            <button ng-click="deleteItem($index)" class="delete">Delete</button>
+            <button ng-click="deleteItem(todo.id)" class="delete">Delete</button>
         </div>
     </div>
 </div>

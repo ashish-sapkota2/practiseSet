@@ -2,6 +2,7 @@ window.app.factory("todoService", function ($http) {
     var baseUrl = "https://localhost:7229/api/todo";
     var service = {};
     service.todoItems = [{}];
+    service.todoItem={};
 
     service.getTodos = function () {
         return $http.get(baseUrl);
@@ -17,6 +18,9 @@ window.app.factory("todoService", function ($http) {
             service.todoItems.push(response.data);
             service.newTodo = {};
         });
+    };
+    service.updateTodo = function(todoItem) {
+        return $http.put(baseUrl, todoItem);
     };
 
     service.deleteToDo = function (id) {
