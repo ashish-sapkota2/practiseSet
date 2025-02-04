@@ -1,0 +1,27 @@
+<app-nav></app-nav>
+<div class="show-options">
+    <label>Show:</label>
+    <div class="options-group">
+        <label>
+            <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="table" (change)="changeView('table')" />
+            Tabular Format
+        </label>
+        <label>
+            <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="pie" (change)="changeView('pie')" />
+            Pie Charts
+        </label>
+        <label>
+            <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="bar" (change)="changeView('bar')" />
+            Bar Diagrams
+        </label>
+    </div>
+  </div>
+  <!-- <div class="navigation-buttons">
+    <button routerLink="/table" [routerLinkActive]="['active']">Tabular Format</button>
+    <button routerLink="/pie" [routerLinkActive]="['active']">Pie Charts</button>
+    <button routerLink="/bar" [routerLinkActive]="['active']">Bar Diagrams</button>
+</div> -->
+
+<div class="container" style="margin-top: 100px; margin-bottom: 250px;">
+<router-outlet> </router-outlet>
+</div>

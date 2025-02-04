@@ -1,0 +1,6 @@
+@DataManipulation_HostAddress = http://localhost:5210
+
+GET {{DataManipulation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

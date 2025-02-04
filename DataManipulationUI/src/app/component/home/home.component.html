@@ -1,0 +1,131 @@
+<!-- <div class="show-options">
+  <label>Show:</label>
+  <div class="options-group">
+      <label>
+          <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="table" (change)="changeView('table')" />
+          Tabular Format
+      </label>
+      <label>
+          <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="pie" (change)="changeView('pie')" />
+          Pie Charts
+      </label>
+      <label>
+          <input type="radio" name="viewMode" [(ngModel)]="viewMode" value="bar" (change)="changeView('bar')" />
+          Bar Diagrams
+      </label>
+  </div>
+</div> -->
+<div class="container">
+  <h2>User Data Table</h2>
+
+  <!-- Search Filters -->
+  <div class="search-filters">
+    <div class="filter-item">
+      <label for="wardSearch">Ward</label>
+      <input type="number" id="wardSearch" [(ngModel)]="searchCriteria.ward" (input)="filterUsers()" placeholder="Search by Ward" />
+  </div>
+      <div class="filter-item">
+          <label for="fullNameSearch">Full Name</label>
+          <input type="text" id="fullNameSearch" [(ngModel)]="searchCriteria.fullName" (input)="filterUsers()" placeholder="Search by Full Name" />
+      </div>
+      <div class="filter-item">
+          <label for="casteSearch">Caste</label>
+          <input type="text" id="casteSearch" [(ngModel)]="searchCriteria.caste" (input)="filterUsers()" placeholder="Search by Caste" />
+      </div>
+      <div class="filter-item">
+          <label for="sexSearch">Sex</label>
+          <input type="text" id="sexSearch" [(ngModel)]="searchCriteria.sex" (input)="filterUsers()" placeholder="Search by Sex" />
+      </div>
+      <div class="filter-item">
+          <label for="ageSearch">Age</label>
+          <input type="number" id="ageSearch" [(ngModel)]="searchCriteria.age" (input)="filterUsers()" placeholder="Search by Age" />
+      </div>
+      <div class="filter-item">
+          <label for="religionSearch">Religion</label>
+          <input type="text" id="religionSearch" [(ngModel)]="searchCriteria.religion" (input)="filterUsers()" placeholder="Search by Religion" />
+      </div>
+      <div class="filter-item">
+          <label for="educationSearch">Education</label>
+          <input type="text" id="educationSearch" [(ngModel)]="searchCriteria.education" (input)="filterUsers()" placeholder="Search by Education" />
+      </div>
+      <div class="filter-item">
+          <label for="occupationSearch">Occupation</label>
+          <input type="text" id="occupationSearch" [(ngModel)]="searchCriteria.occupation" (input)="filterUsers()" placeholder="Search by Occupation" />
+      </div>
+      <div class="filter-item">
+          <label for="disabilitySearch">Disability</label>
+          <input type="text" id="disabilitySearch" [(ngModel)]="searchCriteria.disability" (input)="filterUsers()" placeholder="Search by Disability" />
+      </div>
+  </div>
+
+  <!-- User Table -->
+  <table class="user-table">
+      <thead>
+          <tr>
+              <th>SN</th>
+              <th>Ward</th>
+              <th>Full Name</th>
+              <th>Caste</th>
+              <th>Sex</th>
+              <th>Age</th>
+              <th>Religion</th>
+              <th>Education</th>
+              <th>Occupation</th>
+              <th>Disability</th>
+              <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let user of filteredUsers; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td>
+                <input *ngIf="editingRowId === user.id" type="number" [(ngModel)]="user.ward" />
+                <span *ngIf="editingRowId !== user.id">{{ user.ward }}</span>
+            </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.fullName" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.fullName }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.caste" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.caste }}</span>
+              </td>
+              <td>
+                  <select *ngIf="editingRowId === user.id" [(ngModel)]="user.sex">
+                      <option value="पुरुष">पुरुष</option>
+                      <option value="महिला">महिला</option>
+                      <option value="अन्य">अन्य</option>
+                  </select>
+                  <span *ngIf="editingRowId !== user.id">{{ user.sex }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" type="number" [(ngModel)]="user.age" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.age }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.religion" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.religion }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.education" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.education }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.occupation" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.occupation }}</span>
+              </td>
+              <td>
+                  <input *ngIf="editingRowId === user.id" [(ngModel)]="user.disability" />
+                  <span *ngIf="editingRowId !== user.id">{{ user.disability }}</span>
+              </td>
+              <td>
+                <div class="button-group">
+                  <button *ngIf="editingRowId !== user.id" class="edit-button" (click)="editUser(user.id)">Edit</button>
+                  <button *ngIf="editingRowId === user.id" class="save-button" (click)="saveUser(user)">Save</button>
+                  <button class="delete-button" (click)="deleteUser(user.id)">Delete</button>
+                </div>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+</div>

@@ -1,0 +1,83 @@
+<div class="container">
+    <h2>Add New Record</h2>
+    
+    <form #userForm="ngForm" (ngSubmit)="submitForm()">
+        <div class="form-group">
+            <label>Ward</label>
+            <input type="number" class="form-control" [(ngModel)]="user.ward" name="age" required #ward="ngModel"/>
+            <div *ngIf="ward.invalid && ward.touched" class="text-danger">
+              Ward is required.
+            </div>
+          </div>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" class="form-control" [(ngModel)]="user.fullName" name="fullName" required #fullName="ngModel" (input)="validateName()"/>
+        <div *ngIf="fullName.invalid && fullName.touched" class="text-danger">
+          Full Name is required.
+        </div>
+        <div *ngIf="nameHasNumbers" class="text-danger">
+            Name cannot contain numbers.
+          </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Caste</label>
+        <input type="text" class="form-control" [(ngModel)]="user.caste" name="caste" required #caste="ngModel"/>
+        <div *ngIf="caste.invalid && caste.touched" class="text-danger">
+          Caste is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Sex</label>
+        <select class="form-control" [(ngModel)]="user.sex" name="sex" required #sex="ngModel">
+          <option value="पुरुष">पुरुष</option>
+          <option value="महिला">महिला</option>
+          <option value="अन्य">अन्य</option>
+        </select>
+        <div *ngIf="sex.invalid && sex.touched" class="text-danger">
+          Sex is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Age</label>
+        <input type="number" class="form-control" [(ngModel)]="user.age" name="age" required #age="ngModel"/>
+        <div *ngIf="age.invalid && age.touched" class="text-danger">
+          Age is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Religion</label>
+        <input type="text" class="form-control" [(ngModel)]="user.religion" name="religion" required #religion="ngModel"/>
+        <div *ngIf="religion.invalid && religion.touched" class="text-danger">
+          Religion is required.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label>Occupation</label>
+        <input type="text" class="form-control" [(ngModel)]="user.occupation" name="occupation" required #occupation="ngModel"/>
+        <div *ngIf="occupation.invalid && occupation.touched" class="text-danger">
+          Occupation is required.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Education</label>
+        <input type="text" class="form-control" [(ngModel)]="user.education" name="education"/>
+      </div>
+  
+      <div class="form-group">
+        <label>Disability</label>
+        <input type="text" class="form-control" [(ngModel)]="user.disability" name="disability"  required #disability="ngModel" />
+        <div *ngIf="disability.invalid && disability.touched" class="text-danger">
+            Education is required.
+          </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" [disabled]="!userForm.form.valid">Submit</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,12 @@
+<div class="chart-container">
+    <h2>User Data Bar chart</h2>
+    <div class="buttons">
+      <button (click)="changeChartMode('sex')" [class.active]="chartMode === 'sex'">Sex</button>
+      <button (click)="changeChartMode('age')" [class.active]="chartMode === 'age'">Age</button>
+      <button (click)="changeChartMode('ward')" [class.active]="chartMode === 'ward'">Ward</button>
+      <button (click)="changeChartMode('religion')" [class.active]="chartMode === 'religion'">Religion</button>
+    </div>
+  
+    <canvas #barCanvas></canvas>
+  </div>
+  
